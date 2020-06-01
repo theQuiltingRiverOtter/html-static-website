@@ -7,6 +7,8 @@ Utilize HTML, CSS, & Javascript to create a landing page for Pied Piper. (HAVE F
 2. When the Navbar reaches the top of the screen have it 'stick' to the top of the webpage
 3. Have the 'Introducting The Box' section texts and image slide and/or appear on the webpage when the user scrolls to that section.
 
+![](https://github.com/kiloplatoon/static-webpage/blob/master/images/pied-piper-1.gif)
+
 ## Resources
 - [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Create a Slideshow](https://www.w3schools.com/w3css/w3css_slideshow.asp)
