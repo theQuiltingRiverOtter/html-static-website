@@ -4,10 +4,12 @@ Utilize HTML, CSS, & Javascript to create a landing page for Pied Piper. (HAVE F
 
 ## Add additional responsiveness
 1. Background Images change every half second (create a slide show that automatically transitions images)
+
 ![](https://github.com/kiloplatoon/static-webpage/blob/master/images/pied-piper-1.gif)
 
 2. When the Navbar reaches the top of the screen have it 'stick' to the top of the webpage
 3. Have the 'Introducting The Box' section texts and image slide and/or appear on the webpage when the user scrolls to that section.
+
 ![](https://github.com/kiloplatoon/static-webpage/blob/master/images/pied-piper-2.gif)
 
 ## Resources
