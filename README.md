@@ -1,5 +1,5 @@
 # Create a Landing Page
-Utilize HTML, CSS, & Javascript to create a landing page for Pied Piper
+Utilize HTML, CSS, & Javascript to create a landing page for Pied Piper. (HAVE FUN WITH IT!)
 ![Pied Piper](https://github.com/kiloplatoon/static-webpage/blob/master/images/pied-piper-landing-page.png)
 
 ## Add additional responsiveness
