@@ -2,9 +2,9 @@
 Utilize HTML, CSS, & Javascript to create a landing page for Pied Piper. (HAVE FUN WITH IT!)
 ![Pied Piper](https://github.com/kiloplatoon/static-webpage/blob/master/images/pied-piper-landing-page.png)
 
-## Add additional responsiveness
-1. Background Images change every half second (create a slide show that automatically transitions images)
-2. Have the 'Introducting The Box' section texts and image slide and/or appear on the webpage when the user scrolls to that section.
+## Release 2 - Add additional responsiveness
+1. Background Images change every couple of seconds (create a slide show or an image carousel that automatically transitions images)
+2. Have the 'Introducing The Box' section text and image slide and/or appear on the webpage when the user scrolls to that section.
 
 ![](https://github.com/kiloplatoon/static-webpage/blob/master/images/pied-piper-1.gif)
 
