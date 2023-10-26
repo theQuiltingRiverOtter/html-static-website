@@ -1,8 +1,6 @@
-#carousel {
-    width: 100vh;
-    height: 100vw;
-    z-index: -1;
-
+#carousel>img {
+    width: 100vw;
+    height: 100vh;
 }
 
 #start-logo {
@@ -13,17 +11,17 @@
     opacity: 0.5;
 }
 
+#start-logo:hover {
+    opacity: 1;
+}
+
 #carousel-text {
     position: absolute;
     right: 50%;
     top: 50%;
     z-index: 10;
     color: white;
-}
-
-#navbar nav {
-    display: flex;
-    flex-direction: row;
+    font-size: 20px;
 }
 
 /* Style the navbar */
@@ -33,6 +31,18 @@
     justify-content: space-between;
     overflow: hidden;
     background-color: #333;
+}
+
+#navbar nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Navbar links */
@@ -64,33 +74,65 @@
 
 #portfolio {
     background-color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     color: white;
+    text-align: center;
+    padding: 20px;
 }
+
 
 
 .wrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .projects {
-    width: 30%;
+    display: grid;
+    height: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+
+}
+
+
+.projects>button {
+    width: 300px;
+    height: 50px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#product>h2 {
+    text-align: center;
 }
 
 .reveal {
     position: relative;
     opacity: 0;
-    transition: 2s all ease;
+    transition: 1s all ease;
 }
 
 .reveal.active {
     opacity: 1;
 }
 
+.left {
+    translate: -800px;
+    transition: 3s all ease;
+}
+
+.left.active {
+    transform: translateX(800px);
+}
+
+.right {
+    translate: 150%;
+    transition: 3s all ease;
+}
+
+.right.active {
+    transform: translateX(-75%);
+}
 
 .hidden {
     display: none;

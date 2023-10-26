@@ -1,5 +1,5 @@
 let slideIndex =1;
-// carousel();
+carousel();
 
 
 function carousel() {
@@ -25,8 +25,13 @@ var sticky = navbar.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
+    navbar.classList.remove("bottom")
   if (window.pageYOffset >= sticky) {
+    console.log("Sticky")
     navbar.classList.add("sticky")
+  } else if (window.pageYOffset <= 1) {
+    navbar.classList.add("bottom")
+    navbar.classList.remove("sticky");
   } else {
     navbar.classList.remove("sticky");
   }
